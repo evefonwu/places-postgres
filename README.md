@@ -3,10 +3,10 @@
 Places API with PostgreSQL-backed GraphQL resolvers and Apollo Server
 
 - create a place
-- query places
-- query one places by id
-- update places
-- delete places
+- query all places
+- query a place by id
+- update place
+- delete place
 
 ## Installation
 
