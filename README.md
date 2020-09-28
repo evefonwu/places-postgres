@@ -1,6 +1,6 @@
 # Places-Postgres
 
-Places GraphQL API with PostgreSQL-backed resolvers and Apollo Server
+Places API with PostgreSQL-backed GraphQL resolvers and Apollo Server
 
 - create a place
 - query places
