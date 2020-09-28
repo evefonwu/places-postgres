@@ -1,0 +1,22 @@
+{
+  "name": "apollo-graphql-postgres",
+  "version": "1.0.0",
+  "description": "Apollo Server and Postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.18.1",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "pg": "^8.3.3",
+    "uuidv4": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
