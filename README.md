@@ -117,16 +117,18 @@ Adding new GraphQL queries and data is not as expected
 
 - Check SQL query for Postgres. For example, Postgres requires single quotes around string constants
 
-- Does your GraphQL schema query parameters match your resolver function second parameter? GraphQL resolver functions can receive four arguments, the second of which is the arguments from your schema query.
+- Does your GraphQL schema query parameters match your resolver function's second parameter? GraphQL resolver functions can receive four arguments, the second of which is the arguments from your schema query.
 
 ```gql
 const typeDefs = gql`
-  updatePlace(uuid: String!, input: PlaceInput!): Place
+
   input PlaceInput {
     name: String!
     type: String!
     guests: String!
   }
+
+  updatePlace(uuid: String!, input: PlaceInput!): Place
 `;
 ```
 
