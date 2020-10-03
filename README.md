@@ -39,6 +39,7 @@ PASSWORD=yourpassword
 #### Install node project dependencies
 
 ```bash
+cd server
 npm install
 ```
 
